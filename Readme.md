@@ -1,5 +1,5 @@
-#https://github.com/pramitgupta99/NFT_Project
+## https://github.com/pramitgupta99/NFT_Project
 
-#Name: Pramit Gupta
+## Name: Pramit Gupta
 
 We pip install flask. Upon running the run.py where we import the flask app, which triggers the app directory and provides a deployment server. On clicking on the deployment server link we go to the minting NFT. I created one called "NinjaCoin". Connected it to Metamask and uploaded and linked it. Index.html has the elements for using to the dapp. Once the logic runs we display the result of the transaction that triggers are NFT Minting. In logic.js We get id of files in an array and we create a moralis file object as moralis makes it easy to use IPFS. We deactivte element such as 'upload, file, name and description' so no one can click on those elements when the process has already started. We get the ipfs url and create metadata object that contains all info regarding our NFT. We store all metadata in a json object and get the new moralis file to store in IPFS. We get IPFS URI with which we can call mint token function. We will know that the NFT has been minted when we get back the transction Hash. We can see our NFT in our Opensea profile.  
